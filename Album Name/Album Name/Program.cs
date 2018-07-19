@@ -8,15 +8,15 @@ namespace Album_Name
         {
             Console.WriteLine("Have a real or made-up band? Let's find the perfect name for your first album!");
             Console.Write("What is your favorite ice cream flavor? ");
-            string myIceCream = Console.ReadLine();
+            string icecream = Console.ReadLine();
 
             Console.Write("What is your favorite animal? ");
-            string myAnimal = Console.ReadLine();
+            string animal = Console.ReadLine();
 
             Console.Write("What is your favorite season? ");
-            string mySeason = Console.ReadLine();
+            string season = Console.ReadLine();
 
-            Console.WriteLine("Your album name is: " + myIceCream + " " + myAnimal + "s " + "in the " + mySeason);
+            Console.WriteLine("Your album name is: " + icecream + " " + animal + "s " + "in the " + season);
             Console.ReadLine();
 
 
